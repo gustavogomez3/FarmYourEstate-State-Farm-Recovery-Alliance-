@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF0EC17122509E1B00481ACF /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0EC17022509E1B00481ACF /* ForgotPasswordVC.swift */; };
+		CF0EC1732250A02400481ACF /* RewardTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0EC1722250A02400481ACF /* RewardTableVC.swift */; };
+		CF0EC1772250B73400481ACF /* EventStatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0EC1762250B73400481ACF /* EventStatsViewController.swift */; };
+		CF0EC1792250D7EE00481ACF /* RewardTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0EC1782250D7EE00481ACF /* RewardTypes.swift */; };
+		CF10A60C224FEE2F00614FCE /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10A60B224FEE2F00614FCE /* RegistrationViewController.swift */; };
+		CF6D26AE2250479000F41E01 /* RewardViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6D26AD2250479000F41E01 /* RewardViewCell.swift */; };
+		CF6D26B02250536D00F41E01 /* EventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6D26AF2250536D00F41E01 /* EventTableViewController.swift */; };
+		CF6D26B2225057A500F41E01 /* EventViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6D26B1225057A500F41E01 /* EventViewCell.swift */; };
+		CFFF7B2A224FC73E00A6D9E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFF7B29224FC73E00A6D9E5 /* AppDelegate.swift */; };
+		CFFF7B2C224FC73E00A6D9E5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFF7B2B224FC73E00A6D9E5 /* LoginViewController.swift */; };
+		CFFF7B2F224FC73E00A6D9E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFFF7B2D224FC73E00A6D9E5 /* Main.storyboard */; };
+		CFFF7B31224FC74000A6D9E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFFF7B30224FC74000A6D9E5 /* Assets.xcassets */; };
+		CFFF7B34224FC74000A6D9E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFFF7B32224FC74000A6D9E5 /* LaunchScreen.storyboard */; };
+		CFFF7B3F224FC74000A6D9E5 /* FarmYourEstate_State_Farm_Recovery_Alliance_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFF7B3E224FC74000A6D9E5 /* FarmYourEstate_State_Farm_Recovery_Alliance_Tests.swift */; };
+		CFFF7B4A224FC74000A6D9E5 /* FarmYourEstate_State_Farm_Recovery_Alliance_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFF7B49224FC74000A6D9E5 /* FarmYourEstate_State_Farm_Recovery_Alliance_UITests.swift */; };
+		CFFF7B58224FD54D00A6D9E5 /* RewardsSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFF7B57224FD54D00A6D9E5 /* RewardsSelectionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFFF7B3B224FC74000A6D9E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFFF7B1E224FC73E00A6D9E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFFF7B25224FC73E00A6D9E5;
+			remoteInfo = "FarmYourEstate(State Farm Recovery Alliance)";
+		};
+		CFFF7B46224FC74000A6D9E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFFF7B1E224FC73E00A6D9E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFFF7B25224FC73E00A6D9E5;
+			remoteInfo = "FarmYourEstate(State Farm Recovery Alliance)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF0EC17022509E1B00481ACF /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		CF0EC1722250A02400481ACF /* RewardTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardTableVC.swift; sourceTree = "<group>"; };
+		CF0EC1762250B73400481ACF /* EventStatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventStatsViewController.swift; sourceTree = "<group>"; };
+		CF0EC1782250D7EE00481ACF /* RewardTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardTypes.swift; sourceTree = "<group>"; };
+		CF10A60B224FEE2F00614FCE /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		CF6D26AD2250479000F41E01 /* RewardViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardViewCell.swift; sourceTree = "<group>"; };
+		CF6D26AF2250536D00F41E01 /* EventTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewController.swift; sourceTree = "<group>"; };
+		CF6D26B1225057A500F41E01 /* EventViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewCell.swift; sourceTree = "<group>"; };
+		CFFF7B26224FC73E00A6D9E5 /* FarmYourEstate(State Farm Recovery Alliance).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FarmYourEstate(State Farm Recovery Alliance).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFF7B29224FC73E00A6D9E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFFF7B2B224FC73E00A6D9E5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CFFF7B2E224FC73E00A6D9E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFFF7B30224FC74000A6D9E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFFF7B33224FC74000A6D9E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFFF7B35224FC74000A6D9E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFFF7B3A224FC74000A6D9E5 /* FarmYourEstate(State Farm Recovery Alliance)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FarmYourEstate(State Farm Recovery Alliance)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFF7B3E224FC74000A6D9E5 /* FarmYourEstate_State_Farm_Recovery_Alliance_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmYourEstate_State_Farm_Recovery_Alliance_Tests.swift; sourceTree = "<group>"; };
+		CFFF7B40224FC74000A6D9E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFFF7B45224FC74000A6D9E5 /* FarmYourEstate(State Farm Recovery Alliance)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FarmYourEstate(State Farm Recovery Alliance)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFF7B49224FC74000A6D9E5 /* FarmYourEstate_State_Farm_Recovery_Alliance_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmYourEstate_State_Farm_Recovery_Alliance_UITests.swift; sourceTree = "<group>"; };
+		CFFF7B4B224FC74000A6D9E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFFF7B57224FD54D00A6D9E5 /* RewardsSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsSelectionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFFF7B23224FC73E00A6D9E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFF7B37224FC74000A6D9E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFF7B42224FC74000A6D9E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF10A60D224FF43300614FCE /* Tab Bar Controller Views */ = {
+			isa = PBXGroup;
+			children = (
+				CFFF7B4B224FC74000A6D9E5 /* Info.plist */,
+				CF6D26AF2250536D00F41E01 /* EventTableViewController.swift */,
+				CF0EC1762250B73400481ACF /* EventStatsViewController.swift */,
+				CF6D26B1225057A500F41E01 /* EventViewCell.swift */,
+				CF6D26AD2250479000F41E01 /* RewardViewCell.swift */,
+				CF0EC1722250A02400481ACF /* RewardTableVC.swift */,
+			);
+			path = "Tab Bar Controller Views";
+			sourceTree = "<group>";
+		};
+		CFFF7B1D224FC73E00A6D9E5 = {
+			isa = PBXGroup;
+			children = (
+				CFFF7B28224FC73E00A6D9E5 /* FarmYourEstate(State Farm Recovery Alliance) */,
+				CFFF7B3D224FC74000A6D9E5 /* FarmYourEstate(State Farm Recovery Alliance)Tests */,
+				CFFF7B48224FC74000A6D9E5 /* FarmYourEstate(State Farm Recovery Alliance)UITests */,
+				CFFF7B27224FC73E00A6D9E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFFF7B27224FC73E00A6D9E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFFF7B26224FC73E00A6D9E5 /* FarmYourEstate(State Farm Recovery Alliance).app */,
+				CFFF7B3A224FC74000A6D9E5 /* FarmYourEstate(State Farm Recovery Alliance)Tests.xctest */,
+				CFFF7B45224FC74000A6D9E5 /* FarmYourEstate(State Farm Recovery Alliance)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFFF7B28224FC73E00A6D9E5 /* FarmYourEstate(State Farm Recovery Alliance) */ = {
+			isa = PBXGroup;
+			children = (
+				CFFF7B29224FC73E00A6D9E5 /* AppDelegate.swift */,
+				CFFF7B2B224FC73E00A6D9E5 /* LoginViewController.swift */,
+				CFFF7B2D224FC73E00A6D9E5 /* Main.storyboard */,
+				CF10A60B224FEE2F00614FCE /* RegistrationViewController.swift */,
+				CF0EC17022509E1B00481ACF /* ForgotPasswordVC.swift */,
+				CF0EC1782250D7EE00481ACF /* RewardTypes.swift */,
+				CF10A60D224FF43300614FCE /* Tab Bar Controller Views */,
+				CFFF7B30224FC74000A6D9E5 /* Assets.xcassets */,
+				CFFF7B32224FC74000A6D9E5 /* LaunchScreen.storyboard */,
+				CFFF7B57224FD54D00A6D9E5 /* RewardsSelectionViewController.swift */,
+				CFFF7B35224FC74000A6D9E5 /* Info.plist */,
+			);
+			path = "FarmYourEstate(State Farm Recovery Alliance)";
+			sourceTree = "<group>";
+		};
+		CFFF7B3D224FC74000A6D9E5 /* FarmYourEstate(State Farm Recovery Alliance)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CFFF7B3E224FC74000A6D9E5 /* FarmYourEstate_State_Farm_Recovery_Alliance_Tests.swift */,
+				CFFF7B40224FC74000A6D9E5 /* Info.plist */,
+			);
+			path = "FarmYourEstate(State Farm Recovery Alliance)Tests";
+			sourceTree = "<group>";
+		};
+		CFFF7B48224FC74000A6D9E5 /* FarmYourEstate(State Farm Recovery Alliance)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFFF7B49224FC74000A6D9E5 /* FarmYourEstate_State_Farm_Recovery_Alliance_UITests.swift */,
+			);
+			path = "FarmYourEstate(State Farm Recovery Alliance)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFFF7B25224FC73E00A6D9E5 /* FarmYourEstate(State Farm Recovery Alliance) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFFF7B4E224FC74000A6D9E5 /* Build configuration list for PBXNativeTarget "FarmYourEstate(State Farm Recovery Alliance)" */;
+			buildPhases = (
+				CFFF7B22224FC73E00A6D9E5 /* Sources */,
+				CFFF7B23224FC73E00A6D9E5 /* Frameworks */,
+				CFFF7B24224FC73E00A6D9E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FarmYourEstate(State Farm Recovery Alliance)";
+			productName = "FarmYourEstate(State Farm Recovery Alliance)";
+			productReference = CFFF7B26224FC73E00A6D9E5 /* FarmYourEstate(State Farm Recovery Alliance).app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFFF7B39224FC74000A6D9E5 /* FarmYourEstate(State Farm Recovery Alliance)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFFF7B51224FC74000A6D9E5 /* Build configuration list for PBXNativeTarget "FarmYourEstate(State Farm Recovery Alliance)Tests" */;
+			buildPhases = (
+				CFFF7B36224FC74000A6D9E5 /* Sources */,
+				CFFF7B37224FC74000A6D9E5 /* Frameworks */,
+				CFFF7B38224FC74000A6D9E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFFF7B3C224FC74000A6D9E5 /* PBXTargetDependency */,
+			);
+			name = "FarmYourEstate(State Farm Recovery Alliance)Tests";
+			productName = "FarmYourEstate(State Farm Recovery Alliance)Tests";
+			productReference = CFFF7B3A224FC74000A6D9E5 /* FarmYourEstate(State Farm Recovery Alliance)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFFF7B44224FC74000A6D9E5 /* FarmYourEstate(State Farm Recovery Alliance)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFFF7B54224FC74000A6D9E5 /* Build configuration list for PBXNativeTarget "FarmYourEstate(State Farm Recovery Alliance)UITests" */;
+			buildPhases = (
+				CFFF7B41224FC74000A6D9E5 /* Sources */,
+				CFFF7B42224FC74000A6D9E5 /* Frameworks */,
+				CFFF7B43224FC74000A6D9E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFFF7B47224FC74000A6D9E5 /* PBXTargetDependency */,
+			);
+			name = "FarmYourEstate(State Farm Recovery Alliance)UITests";
+			productName = "FarmYourEstate(State Farm Recovery Alliance)UITests";
+			productReference = CFFF7B45224FC74000A6D9E5 /* FarmYourEstate(State Farm Recovery Alliance)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFFF7B1E224FC73E00A6D9E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Gustavo Gomez";
+				TargetAttributes = {
+					CFFF7B25224FC73E00A6D9E5 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					CFFF7B39224FC74000A6D9E5 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = CFFF7B25224FC73E00A6D9E5;
+					};
+					CFFF7B44224FC74000A6D9E5 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = CFFF7B25224FC73E00A6D9E5;
+					};
+				};
+			};
+			buildConfigurationList = CFFF7B21224FC73E00A6D9E5 /* Build configuration list for PBXProject "FarmYourEstate(State Farm Recovery Alliance)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFFF7B1D224FC73E00A6D9E5;
+			productRefGroup = CFFF7B27224FC73E00A6D9E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFFF7B25224FC73E00A6D9E5 /* FarmYourEstate(State Farm Recovery Alliance) */,
+				CFFF7B39224FC74000A6D9E5 /* FarmYourEstate(State Farm Recovery Alliance)Tests */,
+				CFFF7B44224FC74000A6D9E5 /* FarmYourEstate(State Farm Recovery Alliance)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFFF7B24224FC73E00A6D9E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFF7B34224FC74000A6D9E5 /* LaunchScreen.storyboard in Resources */,
+				CFFF7B31224FC74000A6D9E5 /* Assets.xcassets in Resources */,
+				CFFF7B2F224FC73E00A6D9E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFF7B38224FC74000A6D9E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFF7B43224FC74000A6D9E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFFF7B22224FC73E00A6D9E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFF7B58224FD54D00A6D9E5 /* RewardsSelectionViewController.swift in Sources */,
+				CFFF7B2C224FC73E00A6D9E5 /* LoginViewController.swift in Sources */,
+				CF10A60C224FEE2F00614FCE /* RegistrationViewController.swift in Sources */,
+				CF6D26AE2250479000F41E01 /* RewardViewCell.swift in Sources */,
+				CF6D26B02250536D00F41E01 /* EventTableViewController.swift in Sources */,
+				CFFF7B2A224FC73E00A6D9E5 /* AppDelegate.swift in Sources */,
+				CF0EC17122509E1B00481ACF /* ForgotPasswordVC.swift in Sources */,
+				CF0EC1772250B73400481ACF /* EventStatsViewController.swift in Sources */,
+				CF6D26B2225057A500F41E01 /* EventViewCell.swift in Sources */,
+				CF0EC1732250A02400481ACF /* RewardTableVC.swift in Sources */,
+				CF0EC1792250D7EE00481ACF /* RewardTypes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFF7B36224FC74000A6D9E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFF7B3F224FC74000A6D9E5 /* FarmYourEstate_State_Farm_Recovery_Alliance_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFF7B41224FC74000A6D9E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFF7B4A224FC74000A6D9E5 /* FarmYourEstate_State_Farm_Recovery_Alliance_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFFF7B3C224FC74000A6D9E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFFF7B25224FC73E00A6D9E5 /* FarmYourEstate(State Farm Recovery Alliance) */;
+			targetProxy = CFFF7B3B224FC74000A6D9E5 /* PBXContainerItemProxy */;
+		};
+		CFFF7B47224FC74000A6D9E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFFF7B25224FC73E00A6D9E5 /* FarmYourEstate(State Farm Recovery Alliance) */;
+			targetProxy = CFFF7B46224FC74000A6D9E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFFF7B2D224FC73E00A6D9E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFFF7B2E224FC73E00A6D9E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFFF7B32224FC74000A6D9E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFFF7B33224FC74000A6D9E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFFF7B4C224FC74000A6D9E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFFF7B4D224FC74000A6D9E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFFF7B4F224FC74000A6D9E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7UQB7G8V82;
+				INFOPLIST_FILE = "FarmYourEstate(State Farm Recovery Alliance)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gsuhack.FarmYourEstate-State-Farm-Recovery-Alliance-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CFFF7B50224FC74000A6D9E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7UQB7G8V82;
+				INFOPLIST_FILE = "FarmYourEstate(State Farm Recovery Alliance)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gsuhack.FarmYourEstate-State-Farm-Recovery-Alliance-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CFFF7B52224FC74000A6D9E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FarmYourEstate(State Farm Recovery Alliance)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gsuhack.FarmYourEstate-State-Farm-Recovery-Alliance-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FarmYourEstate(State Farm Recovery Alliance).app/FarmYourEstate(State Farm Recovery Alliance)";
+			};
+			name = Debug;
+		};
+		CFFF7B53224FC74000A6D9E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FarmYourEstate(State Farm Recovery Alliance)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gsuhack.FarmYourEstate-State-Farm-Recovery-Alliance-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FarmYourEstate(State Farm Recovery Alliance).app/FarmYourEstate(State Farm Recovery Alliance)";
+			};
+			name = Release;
+		};
+		CFFF7B55224FC74000A6D9E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FarmYourEstate(State Farm Recovery Alliance)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gsuhack.FarmYourEstate-State-Farm-Recovery-Alliance-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FarmYourEstate(State Farm Recovery Alliance)";
+			};
+			name = Debug;
+		};
+		CFFF7B56224FC74000A6D9E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FarmYourEstate(State Farm Recovery Alliance)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gsuhack.FarmYourEstate-State-Farm-Recovery-Alliance-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FarmYourEstate(State Farm Recovery Alliance)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFFF7B21224FC73E00A6D9E5 /* Build configuration list for PBXProject "FarmYourEstate(State Farm Recovery Alliance)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFF7B4C224FC74000A6D9E5 /* Debug */,
+				CFFF7B4D224FC74000A6D9E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFFF7B4E224FC74000A6D9E5 /* Build configuration list for PBXNativeTarget "FarmYourEstate(State Farm Recovery Alliance)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFF7B4F224FC74000A6D9E5 /* Debug */,
+				CFFF7B50224FC74000A6D9E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFFF7B51224FC74000A6D9E5 /* Build configuration list for PBXNativeTarget "FarmYourEstate(State Farm Recovery Alliance)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFF7B52224FC74000A6D9E5 /* Debug */,
+				CFFF7B53224FC74000A6D9E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFFF7B54224FC74000A6D9E5 /* Build configuration list for PBXNativeTarget "FarmYourEstate(State Farm Recovery Alliance)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFF7B55224FC74000A6D9E5 /* Debug */,
+				CFFF7B56224FC74000A6D9E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFFF7B1E224FC73E00A6D9E5 /* Project object */;
+}
